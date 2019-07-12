@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding : 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:url(Images/hope.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top : 25px; 
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.title{
+	position: absolute;
+	top : 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.images{
+	background: url(Images/1.jpg);
+	width: 100%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	animation: slide 60s infinite;
+}
+
+@keyframes slide{
+ 4%{
+ 	background: url(Images/2.jpg);
+ }
+  8%{
+ 	background: url(Images/3.jpg);
+ }
+  16%{
+ 	background: url(Images/4.jpg);
+ }
+  20%{
+ 	background: url(Images/5.jpg);
+ }
+  24%{
+ 	background: url(Images/6.jpg);
+ }
+  28%{
+ 	background: url(Images/7.jpg);
+ }
+  32%{
+ 	background: url(Images/8.jpg);
+ }
+  36%{
+ 	background: url(Images/9.jpg);
+ }
+  40%{
+ 	background: url(Images/10.jpg);
+ }
+  44%{
+ 	background: url(Images/11.jpg);
+ }
+  48%{
+ 	background: url(Images/12.jpg);
+ }
+  52%{
+ 	background: url(Images/13.jpg);
+ }
+  56%{
+ 	background: url(Images/14.jpg);
+ }
+  60%{
+ 	background: url(Images/15.jpg);
+ }
+  64%{
+ 	background: url(Images/16.jpg);
+ }
+  68%{
+ 	background: url(Images/17.jpg);
+ }
+  72%{
+ 	background: url(Images/18.jpg);
+ }
+  76%{
+ 	background: url(Images/19.jpg);
+ }
+  80%{
+ 	background: url(Images/20.jpg);
+ }
+  84%{
+ 	background: url(Images/21.jpg);
+ }
+  88%{
+ 	background: url(Images/22.jpg);
+ }
+  92%{
+ 	background: url(Images/23.jpg);
+ }
+  96%{
+ 	background: url(Images/24.jpg);
+ }
+  100%{
+ 	background: url(Images/1.jpg);
+ }
+}
